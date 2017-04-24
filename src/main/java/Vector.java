@@ -44,11 +44,12 @@ public class Vector {
 
     public void remove(Object object) {
         int position = indexOf(object);
+
         if (position == -1) {
             return;
         }
-        remove(object);
         remove(position);
+        remove(object);
     }
 
     public boolean contains(Object object) {
@@ -62,6 +63,15 @@ public class Vector {
 
     public int indexOf(Object object) {
         for (int position = 0; position < size(); position++) {
+            if (object.equals(objects[position])) {
+                return position;
+            }
+        }
+        return -1;
+    }
+
+    public int lastIndexOf(Object object) {
+        for (int position = size() - 1; position >= 0; position--) {
             if (object.equals(objects[position])) {
                 return position;
             }

@@ -108,6 +108,57 @@ public class VectorTest {
     }
 
     @Test
+    public void removeOnObject() {
+        Student student1 = new Student();
+        Student student2 = new Student();
+
+        student1.setName("John");
+        student2.setName("John");
+
+        Vector list = new Vector();
+        list.add(student1);
+        list.add(student2);
+        list.remove(student1);
+
+        assertEquals(0, list.size());
+    }
+
+    @Test
+    public void shouldReturnFirstIndexFromObject() {
+        Student student1 = new Student();
+        Student student2 = new Student();
+        Student student3 = new Student();
+
+        student1.setName("John");
+        student2.setName("Rafael");
+        student3.setName("Joseph");
+
+        Vector list = new Vector();
+        list.add(student1);
+        list.add(student2);
+
+        assertEquals(0, list.indexOf(student1));
+        assertEquals(1, list.indexOf(student2));
+        assertEquals(-1, list.indexOf(student3));
+    }
+
+    @Test
+    public void shouldReturnLastIndexFromObject() {
+        Student student1 = new Student();
+        Student student3 = new Student();
+
+        student1.setName("John");
+        student3.setName("Joseph");
+
+        Vector list = new Vector();
+        list.add(student1);
+        list.add(student1);
+
+        assertEquals(1, list.lastIndexOf(student1));
+        assertEquals(-1, list.indexOf(student3));
+    }
+
+    @Test
     public void removeOnInvalidPosition() {
         assertThrows(IllegalArgumentException.class, () -> {
             Student student1 = new Student();
