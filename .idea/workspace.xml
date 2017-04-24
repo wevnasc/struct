@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a0bea3a-08d3-4f54-8065-fd699f9638d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Cell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Struct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Vector.class" afterPath="$PROJECT_DIR$/target/classes/Vector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Vector.java" afterPath="$PROJECT_DIR$/src/main/java/Vector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/VectorTest.java" afterPath="$PROJECT_DIR$/src/test/java/VectorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +32,12 @@
     <favorites_list name="Struct" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,6 +47,7 @@
       <find>student</find>
       <find>indexOf</find>
       <find>remove</find>
+      <find>Last</find>
     </findStrings>
     <replaceStrings>
       <replace>object</replace>
@@ -60,8 +66,12 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Vector.java" />
         <option value="$PROJECT_DIR$/src/test/java/VectorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Struct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Vector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -169,9 +179,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,6 +192,11 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,70 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VectorTest.shouldReturnLastIndexFromObject">
-    <configuration default="false" name="VectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Struct" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VectorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="VectorTest.shouldReturnIndexOfStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Struct" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VectorTest" />
-      <option name="METHOD_NAME" value="shouldReturnIndexOfStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="VectorTest.removeOnObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Struct" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VectorTest" />
-      <option name="METHOD_NAME" value="removeOnObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.LinkedListTest.shouldAddElementOnLast">
     <configuration default="false" name="VectorTest.shouldReturnIndexFromObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Struct" />
@@ -288,6 +240,69 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="VectorTest" />
       <option name="METHOD_NAME" value="shouldReturnLastIndexFromObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedListTest.shouldAddElementOnLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Struct" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
+      <option name="METHOD_NAME" value="shouldAddElementOnLast" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedListTest.shouldReturnSizeOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Struct" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
+      <option name="METHOD_NAME" value="shouldReturnSizeOfList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedListTest.shouldAddElementOnFirstOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Struct" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListTest" />
+      <option name="METHOD_NAME" value="shouldAddElementOnFirstOfList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -712,19 +727,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.VectorTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.VectorTest.shouldReturnIndexOfStudent" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.VectorTest.removeOnObject" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.VectorTest.shouldReturnIndexFromObject" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.VectorTest.shouldReturnLastIndexFromObject" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.VectorTest.shouldReturnIndexFromObject" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VectorTest.shouldReturnLastIndexFromObject" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedListTest.shouldAddElementOnLast" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LinkedListTest.shouldReturnSizeOfList" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LinkedListTest.shouldAddElementOnFirstOfList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.VectorTest.shouldReturnLastIndexFromObject" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.VectorTest.shouldReturnIndexFromObject" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.VectorTest.removeOnObject" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.VectorTest.shouldReturnIndexOfStudent" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.VectorTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LinkedListTest.shouldAddElementOnLast" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LinkedListTest.shouldAddElementOnFirstOfList" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedListTest.shouldReturnSizeOfList" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VectorTest.shouldReturnLastIndexFromObject" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.VectorTest.shouldReturnIndexFromObject" />
       </list>
     </recent_temporary>
   </component>
@@ -741,7 +756,8 @@
       <workItem from="1492705614827" duration="279000" />
       <workItem from="1492705935988" duration="9709000" />
       <workItem from="1493036208091" duration="10000" />
-      <workItem from="1493036394985" duration="2495000" />
+      <workItem from="1493036394985" duration="2696000" />
+      <workItem from="1493051777200" duration="3274000" />
     </task>
     <task id="LOCAL-00001" summary="Estrutura de dados Lista">
       <created>1492718627184</created>
@@ -757,24 +773,31 @@
       <option name="project" value="LOCAL" />
       <updated>1492718712731</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Linked List">
+      <created>1493055244002</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1493055244002</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VectorTest_removeOnObject - 2017.04.24 at 09h 44m 01s.xml">
-      <configuration name="VectorTest.removeOnObject" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_shouldAddElementOnFirstOfList - 2017.04.24 at 14h 26m 20s.xml">
+      <configuration name="LinkedListTest.shouldAddElementOnFirstOfList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest_removeOnObject - 2017.04.24 at 09h 45m 10s.xml">
-      <configuration name="VectorTest.removeOnObject" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_shouldAddElementOnLast - 2017.04.24 at 14h 25m 15s.xml">
+      <configuration name="LinkedListTest.shouldAddElementOnLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest_removeOnObject - 2017.04.24 at 09h 45m 18s.xml">
-      <configuration name="VectorTest.removeOnObject" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_shouldAddElementOnLast - 2017.04.24 at 14h 30m 58s.xml">
+      <configuration name="LinkedListTest.shouldAddElementOnLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest_removeOnObject - 2017.04.24 at 09h 45m 42s.xml">
-      <configuration name="VectorTest.removeOnObject" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_shouldAddElementOnLast - 2017.04.24 at 14h 31m 39s.xml">
+      <configuration name="LinkedListTest.shouldAddElementOnLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest_shouldReturnIndexFromObject - 2017.04.24 at 09h 47m 21s.xml">
-      <configuration name="VectorTest.shouldReturnIndexFromObject" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_shouldReturnSizeOfList - 2017.04.24 at 14h 26m 11s.xml">
+      <configuration name="LinkedListTest.shouldReturnSizeOfList" configurationId="JUnit" />
     </history-entry>
     <history-entry file="VectorTest_shouldReturnIndexFromObject - 2017.04.24 at 09h 47m 50s.xml">
       <configuration name="VectorTest.shouldReturnIndexFromObject" configurationId="JUnit" />
@@ -793,7 +816,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12493000" />
+    <option name="totallyTimeSpent" value="15968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,7 +828,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="7" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -824,6 +847,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -835,8 +859,38 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3964687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -846,7 +900,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Estrutura de dados Lista" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estrutura de dados Lista" />
+    <MESSAGE value="Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked List" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -856,7 +911,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Vector.java</url>
-          <line>45</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -891,7 +946,8 @@
         <state relative-caret-position="1280">
           <caret line="64" column="51" lean-forward="false" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
           <folding>
-            <element signature="method#toString#0;class#Vector#0" expanded="false" />
+            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="e#2151#2152#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -927,7 +983,8 @@
         <state relative-caret-position="1280">
           <caret line="64" column="51" lean-forward="false" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
           <folding>
-            <element signature="method#toString#0;class#Vector#0" expanded="false" />
+            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="e#2151#2152#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -975,13 +1032,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Struct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <element signature="method#toString#0;class#Vector#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -990,6 +1045,59 @@
         <state relative-caret-position="60">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="111" column="4" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="126" selection-end-column="5" />
+          <folding>
+            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="e#2151#2152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

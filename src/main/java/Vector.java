@@ -1,14 +1,16 @@
-public class Vector {
+public class Vector implements Struct {
 
     private Object[] objects = new Object[100];
     private int size;
 
+    @Override
     public void add(Object object) {
         ifWithoutSpaceThenCreate();
         objects[size] = object;
         size++;
     }
 
+    @Override
     public void add(int position, Object object) {
         ifWithoutSpaceThenCreate();
         if (!isValidPosition(position)) {
@@ -23,6 +25,7 @@ public class Vector {
         size++;
     }
 
+    @Override
     public Object get(int position) {
         if (!hasPosition(position)) {
             throw new IllegalArgumentException("invalid position");
@@ -30,6 +33,7 @@ public class Vector {
         return objects[position];
     }
 
+    @Override
     public void remove(int position) {
         if (!hasPosition(position)) {
             throw new IllegalArgumentException("invalid position");
@@ -52,6 +56,7 @@ public class Vector {
         remove(object);
     }
 
+    @Override
     public boolean contains(Object object) {
         for (int position = 0; position < size(); position++) {
             if (object.equals(objects[position])) {
@@ -79,6 +84,7 @@ public class Vector {
         return -1;
     }
 
+    @Override
     public int size() {
         return size;
     }
