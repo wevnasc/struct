@@ -1,4 +1,4 @@
-public class Vector implements Struct {
+public class Vector implements List {
 
     private Object[] objects = new Object[100];
     private int size;

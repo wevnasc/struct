@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class LinkedListTest {
 
@@ -25,7 +24,7 @@ public class LinkedListTest {
         linkedList.add(0, "Paulo");
         linkedList.add(1, "Bruno");
 
-        assertEquals(2, linkedList.size());
+        assertEquals(3, linkedList.size());
 
     }
 
@@ -89,7 +88,7 @@ public class LinkedListTest {
         LinkedList linkedList = new LinkedList();
         linkedList.add("Rafael");
 
-        assertTrue(linkedList.contains("Paulo"));
+        assertFalse(linkedList.contains("Paulo"));
 
     }
 
@@ -122,8 +121,9 @@ public class LinkedListTest {
         LinkedList linkedList = new LinkedList();
         linkedList.add("Rafael");
         linkedList.add("Paulo");
-        linkedList.removeFirst();
+        linkedList.removeLast();
 
+        assertEquals(1, linkedList.size());
         assertEquals("Rafael", linkedList.get(0));
 
     }

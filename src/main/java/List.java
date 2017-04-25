@@ -1,5 +1,5 @@
 
-public interface Struct {
+public interface List {
     void add(Object object);
 
     void add(int position, Object object);
